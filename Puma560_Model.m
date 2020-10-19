@@ -153,5 +153,6 @@ qr = [0 pi/2 -pi/2 0 0 0]; % ready pose, arm up
 qs = [0 0 -pi/2 0 0 0];
 qn=[0 pi/4 pi 0 pi/4  0];
 
+p560.plot3d(qz);
 
 clear L
