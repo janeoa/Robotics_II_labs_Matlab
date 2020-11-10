@@ -28,6 +28,9 @@ layers = [ ...
      imageInputLayer([1 1 nFeatures]);
     
     fullyConnectedLayer(512)
+    leakyReluLayer
+    leakyReluLayer
+    tanhLayer
     reluLayer
 %  add more hidden layers to reduce the total mean error VARIABLE 'a' in the
 %  script 'demo_fk.m'
@@ -38,7 +41,7 @@ layers = [ ...
     ]
 
 
-maxEpochs = 10;
+maxEpochs = 500;
 miniBatchSize = 100;
 
 options = trainingOptions('adam', ...
