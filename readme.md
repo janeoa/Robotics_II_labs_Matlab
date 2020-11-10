@@ -1,7 +1,7 @@
 # overview
 
 content
-[link to Lab 5](##-LAB5)
+[link to Lab 5](##-lab5)
 
 ## lab 6 & 7
 ### training
@@ -37,7 +37,7 @@ which took about 4 min and 57 sec on
 
 even though GPU was not doing the computation it is worth noting that not using igpu does reduce thermal output of the intel chip and gives more headroom for the CPU.
 
-![ training](/lab7/images/final.png)
+![ training](/lab7/images/training.jpeg)
 
 Previously shown error is only a special case. The testing using `demo_fk` gave a score of `0.0203`
 
