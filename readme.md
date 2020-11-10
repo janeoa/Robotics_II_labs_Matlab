@@ -1,7 +1,7 @@
 # overview
 
 content
-[link to Lab 5](#-lab5)
+[link to Lab 5](#lab5)
 
 ## lab 6 & 7
 ### training
